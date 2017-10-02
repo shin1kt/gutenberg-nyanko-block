@@ -1,0 +1,30 @@
+.nyanko-icon{
+	display:inline-block;
+	margin-right:0.5em;
+}
+
+.nyan-ballon {
+position: relative;
+display: inline-block;
+margin:  0;
+padding: 7px 10px;
+min-width: 120px;
+max-width: 100%;
+font-size: 16px;
+background: #483d8b;
+border-radius:15px;
+}
+.nyan-ballon:before{
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+border: 10px solid transparent;
+border-top: 30px solid #483d8b;
+}
+.nyan-ballon p {
+margin: 0;
+padding: 0;
+font-size:3rem;
+color:#fff;
+}
